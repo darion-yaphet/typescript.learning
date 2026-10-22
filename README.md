@@ -17,7 +17,13 @@ TypeScript 学习练习项目，按阶段组织，每个练习可独立类型检
 │   ├── ex3-enums-literals.ts   # 枚举与字面量联合
 │   ├── ex4-special-types.ts    # any / unknown / never / void
 │   └── ex5-inference.ts        # 类型推断
-├── 02-interfaces/    # 阶段二：接口与对象
+├── 02-interfaces/    # 阶段二：接口与对象 ✅
+│   ├── ex1-interface-vs-type.ts    # interface 与 type 异同与声明合并
+│   ├── ex2-optional-readonly.ts    # 可选属性与只读属性
+│   ├── ex3-union-intersection.ts   # 联合类型与交叉类型
+│   ├── ex4-narrowing.ts            # 四大类型收窄与判别联合
+│   ├── ex5-function-types.ts       # 函数类型、剩余参数与函数重载
+│   └── ex6-api-response.ts         # 综合实战：API 响应类型设计
 ├── 03-generics/      # 阶段三：泛型与工具类型
 ├── 04-project/       # 阶段四：工程化实战
 ├── notes.md          # 学习笔记
